@@ -1,7 +1,10 @@
 ---
-title: "Holy cow!"
+title: "Welcome to Yuanming's website!"
 ---
 
-### I have a webpage!
+#### My name is Yuanming Mao, a second year Epidemiology MPH student at Columbia University. 
 
-And I can put all kinds of stuff on it!
+Feel free to check out my academic and professional experience:
+
+* [Resume](resume.html)
+
