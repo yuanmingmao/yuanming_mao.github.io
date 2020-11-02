@@ -4,7 +4,7 @@ title: "Welcome to Yuanming's website!"
 
 #### My name is Yuanming Mao, a second year Epidemiology MPH student at Columbia University. 
 
-Feel free to check out my academic and professional experience:
+Check out my academic background and professional experience:
 
 * [Resume](resume.html)
 
