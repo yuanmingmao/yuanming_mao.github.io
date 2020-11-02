@@ -1,13 +1,14 @@
-name: "Yay internet!"
+name: "Yuanming's website"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "Resume"
-      href: resume.html
     - icon: fa-envelope fa-lg
       href: mailto:<ym2770@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/yuanmingmao/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/yuanming-mao-b4560913a/
 output:
-  html_document
+  html_document:
+    theme: flatly

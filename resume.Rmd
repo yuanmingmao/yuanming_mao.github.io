@@ -2,7 +2,11 @@
 title: "Academic and Professional Experience"
 ---
 
-### Education
+\
+
+## Education
+
+***
 
 **Columbia University Mailman School of Public Health, New York, NY**
 
@@ -10,13 +14,18 @@ Master of Public Health, Epidemiology/Certificate in Molecular Epidemiology, Exp
 
 * GPA: 4.00/4.00. Merit-based Scholarship.
 
+
 **University of California Los Angeles, Los Angeles, CA**
 
 Bachelor of Science, Molecular, Cell, and Developmental Biology, March 2019.	 
 
 * GPA: 3.92/4.00. ioinformatics Minor. Summa Cum Laude. Phi Beta Kappa.
 
-### Research / Work Experience
+\
+
+## Research / Work Experience
+
+***
 
 **Mailman School of Public Health, Columbia University**			
 
@@ -25,6 +34,8 @@ Bachelor of Science, Molecular, Cell, and Developmental Biology, March 2019.
 New York, September 2020-Present
 
 * Developing a Master’s thesis aimed to investigate patterns of use for third-line Regorafenib and TAS-102 among older patients with colorectal cancer through analysis of the Surveillance, Epidemiology, and End Results-Medicare (SEER-Medicare) linked dataset using SAS
+
+\
 
 **Kendall Capital Partners**
 
@@ -35,6 +46,8 @@ Boston, September 2020-Present
 * Sourced deals and supported investors to evaluate potential investments in early-stage companies incubated by scientific labs from top universities; conducted due diligence assessment for three companies
 
 * Wrote an industry research report on TCR-T immunotherapy
+
+\
 
 **Real World Solutions, IQVIA**
 
@@ -50,6 +63,8 @@ Shanghai, China, Summer 2020
 
 *	Assisted consultants to prepare project report in the form of PowerPoint decks
 
+\
+
 **COVID-19 Task Force, U.S.–China Health Summit**	 
 
 **_Research Project Lead, Volunteer_**
@@ -63,6 +78,8 @@ New York, February 2020-Present
 *	Responsible for developing a protocol to estimate pivotal trial costs based on Master Protocol design and compared those with traditional trial costs using public data sources and cost estimation tools
 
 *	Conducted desk research, provided Chinese policymakers with information of COVID-19 mutation and evolution, and suggested medical countermeasures for diagnosis, treatment, and vaccine when China was the epicenter
+
+\
 
 **Fogel Laboratory, Department of Neurology, UCLA**                             
 
@@ -78,7 +95,9 @@ Los Angeles, CA, Summer 2017-Spring 2019
 
 *	Contributed to and edited manuscripts for publication (see publications section below)
 
-**_Shanghai Institute of Medical Genetics_**
+\
+
+**Shanghai Institute of Medical Genetics**
 
 **_Research Assistant_**
 
@@ -88,6 +107,8 @@ Shanghai, China, Summer 2018
 
 *	Practiced experimental techniques and accurately followed research protocols including restriction enzyme digestion, molecular cloning, cell transfection, and flow cytometry
 
+\
+
 **CloudHealth Genomics**          
 
 **_Research Intern_**
@@ -95,3 +116,34 @@ Shanghai, China, Summer 2018
 Shanghai, China, Summer 2016
 
 *	Hands-on experience with Illumina sequencing, sequence alignment, and human genome analysis
+
+\
+
+## Publications
+
+***
+
+* Syriani, D. A., Wong, D., Andani, S., De Gusmao, C. M., **Mao, Y.**, Sanyoura, M., ... & Gomez, C. M. (2020). Prevalence of RFC1-mediated spinocerebellar ataxia in a North American ataxia cohort. _Neurology Genetics,_ 6(3).
+
+*	Ngo, K.J., Rexach, J.E., Lee, H., Petty, L.E., Perlman, S., Valera, J.M., Deignan, J.L., **Mao, Y.**, Aker, M., Posey, J.E. and Jhangiani, S.N. (2019). A diagnostic ceiling for exome sequencing in cerebellar ataxia and related neurological disorders. _Human Mutation,_ 41(2), 487-501.
+
+\
+
+## Leadership
+
+***
+
+**_President,_** Columbia University Plus86 Dance Team (December 2019-Present). 
+
+**_Team Captain,_** UCLA CSSA Modern Dance Group (2015-March 2019). 
+
+**_Emcee,_** UCLA Chinese Spring Festival Gala (2016-2018).
+                                                            
+\
+
+## Skills
+
+***
+
+Microsoft Word/Excel/PowerPoint. Statistical applications including SAS and R. Programming in C++ and Python. Fluent Mandarin Chinese.
+

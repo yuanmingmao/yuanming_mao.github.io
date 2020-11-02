@@ -1,10 +1,20 @@
 ---
-title: "Welcome to Yuanming's website!"
+title: "Welcome to Yuanming Mao's Website!"
 ---
 
-#### My name is Yuanming Mao, a second year Epidemiology MPH student at Columbia University. 
+\
 
-Check out my academic background and professional experience:
+#### **About me**
+
+* A second year Epidemiology MPH student at Columbia University
+
+* Born and bred in Shanghai, China, and came to US 5 years ago for higher education
+
+* Pursuing a career in healthcare consulting
+
+\
+
+#### **Check out my academic background and professional experience**
 
 * [Resume](resume.html)
 
