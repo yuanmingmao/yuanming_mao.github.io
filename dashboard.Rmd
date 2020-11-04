@@ -1,0 +1,96 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(flexdashboard)
+library(p8105.datasets)
+```
+
+```{r}
+data("instacart")
+
+instacart = 
+  instacart %>% 
+  select(reordered, user_id, order_dow, order_hour_of_day, product_name, aisle, department) 
+
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+instacart %>% 
+	count(aisle) %>% 
+  filter(n > 10000) %>% 
+  mutate(
+	aisle = factor(aisle),
+	aisle = fct_reorder(aisle, n)
+	) %>% 
+  plot_ly(
+    x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis"
+  )
+
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+reorder_df = 
+  instacart %>% 
+  count(aisle, reordered) %>% 
+  pivot_wider(
+    names_from = reordered,
+    values_from = n
+  ) %>% 
+  mutate(
+    sum = `0` + `1`,
+    reorder_percentage = `1` / sum
+  ) %>% 
+  filter(sum > 10000) %>% 
+  select(aisle, reorder_percentage)
+
+n_purchase_df = 
+  instacart %>% 
+  count(aisle) %>% 
+  filter(n > 10000) %>% 
+  rename( number_of_purchase = n)
+
+combined_df = left_join(reorder_df, n_purchase_df, by = "aisle")
+
+combined_df %>% 
+  plot_ly(
+    x = ~number_of_purchase, y = ~reorder_percentage, type = "scatter", mode = "markers", color = ~aisle, alpha = .6, colors = "viridis"
+  )
+```
+
+### Chart C
+
+```{r}
+
+instacart %>% 
+  count(aisle, order_hour_of_day) %>% 
+  mutate(aisle = factor(aisle)) %>%
+  left_join(n_purchase_df, by = "aisle") %>% 
+  drop_na(number_of_purchase) %>%
+  select(-number_of_purchase) %>%
+  rename(number_of_purchase = n) %>% 
+  plot_ly(
+    x = ~order_hour_of_day, y = ~number_of_purchase, color = ~aisle, type = 'scatter', mode = 'lines',colors = "viridis"
+  )
+```
+
