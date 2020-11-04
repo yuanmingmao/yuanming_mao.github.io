@@ -1,10 +1,15 @@
 ---
 title: "Welcome to Yuanming Mao's Website!"
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 \
 
-### **About me**
+### About Me
+
 
 * A second year Epidemiology MPH student at Columbia University
 
@@ -16,3 +21,17 @@ title: "Welcome to Yuanming Mao's Website!"
 
 Check out [my resume](resume.html) here.
 
+\
+
+### Links to Instacart Dashboard 
+* [Instacart](dashboard.html)
+
+\
+
+### Links to Other Websites
+
+* [My Linkedin](https://www.linkedin.com/in/yuanming-mao-b4560913a/)
+
+* [My Github](http://github.com/yuanmingmao/)
+
+* [My Facebook](https://www.facebook.com/profile.php?id=100009090386153)
