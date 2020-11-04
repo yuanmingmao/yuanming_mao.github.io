@@ -19,7 +19,7 @@ data("instacart")
 
 instacart = 
   instacart %>% 
-  select(reordered, user_id, order_dow, order_hour_of_day, product_name, aisle, department) 
+  select(reordered, order_hour_of_day, product_name, aisle, department) 
 
 ```
 
